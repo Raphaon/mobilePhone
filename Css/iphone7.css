@@ -1,0 +1,276 @@
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.block_quoque
+{
+    margin: 40%;
+    height: 630px;
+    margin-top: 20px;
+    border: groove;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 30px 20px 30px 3px rgba(0, 0,0, 0.8);
+    background: whitesmoke;
+}
+
+.block2_quoqes
+{
+    background-color: ghostwhite;
+    height: 99%;
+    margin: 1%;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 10px;
+}
+.block_ear
+{
+    display: inline-block;
+    width:98%;
+    padding:10px;
+    height: 40px;
+    padding-left: 40px;
+}
+.camera,.block_capteur, .block_micro
+{
+    display: inline-block;
+    border: groove;
+}
+.camera
+{
+    margin-left: 30px;
+    display: inline-block;
+    border: groove;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0,0, 0.8);
+}
+.oeil
+{
+    height: 2px;
+    width: 2px;
+    text-align: center;
+    margin: 3px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.block_ecran
+{
+    display: inline-block;
+    border: inset;
+    width: inherit;
+    height: 480px;
+    margin: 7px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,1);  
+    width: 300px;  
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.heure
+{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top : 70px;
+    width: 99%;
+}
+.menu
+{
+    padding: 30px;
+    height: 200px;
+    width:98%;
+    margin-top:30px;
+    display: none;
+}
+.menu .menCalqu{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: olivedrab;
+}
+.btn_allumer
+{
+    display: inline-block;
+    border: groove;
+    width: inherit;
+    height: 480px;
+    margin: 7px;
+    border-radius: 2px;
+    background-color:lightskyblue; 
+    background-image: url("./Images/fonds.jpeg");
+    width: 300px;  
+    cursor: pointer;
+}
+
+
+.block_bouton
+{
+    height: 50px;
+}
+.btn_menu
+{
+    margin-left: 40%;
+    display: inline-block;
+    border: groove;
+    border-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.btn_menu
+{
+    margin-left: 40%;
+    display: inline-block;
+    border: groove;
+    border-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.block_capteur
+{
+    margin-left: 10px;
+    display: inline-block;
+    border: groove;
+    height: 10px;
+    width: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0,0, 0.8);
+}
+.block_micro
+{
+    display: inline-block;
+    border: groove;
+    height: 5px;
+    width: 60px;
+    border-radius: 10px;
+    background: rgba(0, 0,0, 0.8);
+    vertical-align: top;
+    margin-left: 3px;
+}
+
+.barre_tache
+{
+    color:rgba(255, 255,255, 0.7);
+    font-size: 12px;
+    margin:5px;
+    width: 94%; 
+    display: inline-block;
+    visibility: top;
+    opacity: 0.7;
+}
+.nom_reseau
+{
+    display: inline-block;
+    width: 27%;
+}
+
+.reseau_right
+{
+    display: inline-block;
+    text-align: right;
+    width:66%;
+}
+.barre_reseau, .baterie, .user_pro
+{
+    display: inline-block;
+    margin: 3px;
+}
+
+/**
+*Style reserve à la calculatrice à l'intérieur du télephone 
+**/
+
+.calco
+{
+    height: 40px;
+    width:100%; 
+    display: none;  
+}
+.ecran
+{
+    display:block;
+    height: 170px;
+    background-color: aliceblue;
+}
+.btn_number
+{
+    display: inline-block;
+    height: 280px;
+    padding: 0px;
+    margin: 0px;
+    width: 72.2%;
+    float: left;
+    border: goove;
+    background-color: rgba(0,0,0, 1);
+}
+.btn_number .btn_nbre
+{
+    color: aliceblue;
+    display: inline-block;
+    height: 70px;
+    width:60px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0, 0.8);
+}
+.btn_firstOption
+{
+    display: inline-block;
+    height: 280px;
+    vertical-align: top;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.btn_firstOption .btnFOption
+{
+    display: block;
+    width: 70px;
+    height: 56px;
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgba(0, 0,0, 0.8);
+}
+.btn
+{
+    background-color:aqua;
+}
+.point
+{
+    display: block;
+    width: 5px;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 0px;
+    margin-right: 18px;
+}
+.messure{
+    float: left;
+    margin: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.point b
+{
+    display: block;
+    height: 2px;
+    margin: 3px;
+}
